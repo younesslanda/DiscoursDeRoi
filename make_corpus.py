@@ -25,12 +25,4 @@ def write_list_to_file(list, file_name):
                  out_file.write(text+'\n')
 
 
-if __name__ == '__main__':
-	i = 0
-	for discour in df['Discour']:
 
-		file_name = 'input_'+str(i)
-		list = preprocessing(discour)
-		write_list_to_file(list, file_name)
-		i += 1
-	print('******* Done *******\n', i+1 ,' Documents have been writen')

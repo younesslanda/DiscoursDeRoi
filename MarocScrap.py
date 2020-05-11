@@ -65,7 +65,7 @@ for year in range(2019,1998,-1):
 
 					Discour = get_disc(Discour_p)
 
-					Data = ["*****"+Title, Discour, Date]
+					Data = [Title, Discour, Date]
 
 					write_row_to_csv(Data)
 
