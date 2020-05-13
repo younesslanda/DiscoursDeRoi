@@ -20,4 +20,4 @@ class MySentences(object):
 if __name__ == '__main__':
 	sentence = MySentences('./Discours_text/')
 	model = gensim.models.Word2Vec(sentence, min_count=3)
-	model.save('./discour_de_roi_model_v2')
+	model.save('../Models/discour_de_roi_model_v2')
